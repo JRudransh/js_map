@@ -1,0 +1,17 @@
+1. Create a python programme to calculate the area of circle.
+2. Create a python programme to express digits in a word (eg: 1 = One)
+3. Create a python programme to display a group of messages when the condition is true.
+4. Create a python programme to whether a number is odd or even.
+5. Create a python programme to check whether the given number is in between 1-10.
+6. Create a python programme to accept a numeric digit from keyboard and display in words.
+7. Create a python programme to display even number between 1-20 using while loop.
+8. Create a python programme to display character of string.
+9. Create a python programme to display number from 10-1 in descending order.
+10. Create a python programme to calculate and display the sum of a list numbers using loop.
+11. Create a python programme to display stars in right angled triangular shape.
+12. Create a python programme to display stars in an equilateral triangular form.
+13. Create a python programme to search for an element in the list of elements.
+14. Create a python programme to display only negative numbers from a list.
+15. Create a python programme to display prime number series.
+16. Create a python programme to generate fibonacci number series.
+17. Create a python programme to calculate sine value of given degree.
