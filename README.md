@@ -1,7 +1,7 @@
 # js_map
 
 
-Icon 
-proper zoom
+<!-- Icon  -->
+<!-- proper zoom -->
 make reverse
-submit button outside
+<!-- submit button outside -->
