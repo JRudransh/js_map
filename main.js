@@ -39,6 +39,7 @@ function initMap() {
           infoWindow.setContent("Location found.");
           infoWindow.open(map);
           map.setCenter(pos);
+          map.zoom = 9;
         },
         () => {
           handleLocationError(true, infoWindow, map.getCenter());
