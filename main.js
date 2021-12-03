@@ -6,13 +6,13 @@ let map, infoWindow, long_c, lat_c;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 28.6, lng: 77.2 },
-    zoom: 6,
+    center: { lat: 26.2006, lng: 92.9376 },
+    zoom: 9,
   });
   lat_c = document.getElementById('lat');
   long_c = document.getElementById('long');
-  lat_c.value = 28.6;
-  long_c.value = 77.2;
+  lat_c.value = 26.2006;
+  long_c.value = 92.9376;
 
   infoWindow = new google.maps.InfoWindow();
 
