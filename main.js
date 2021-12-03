@@ -8,12 +8,6 @@ function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 26.148043, lng: 91.731377 },
     zoom: 5,
-    icon: {
-      url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
-      labelOrigin: new google.maps.Point(75, 32),
-      size: new google.maps.Size(32,32),
-      anchor: new google.maps.Point(16,32)
-    }
   });
   lat_c = document.getElementById('lat');
   long_c = document.getElementById('long');
@@ -37,21 +31,14 @@ function initMap() {
             lng: position.coords.longitude,
           };
 
-          // console.log(pos);
+          console.log(pos);
           lat_c.value = pos.lat
           long_c.value = pos.lng
 
           infoWindow.setPosition(pos);
-          infoWindow.setZoom(9)
-          infoWindow.setContent({
-            url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
-            labelOrigin: new google.maps.Point(75, 32),
-            size: new google.maps.Size(32,32),
-            anchor: new google.maps.Point(16,32)
-          });
+          infoWindow.setContent("Location found.");
           infoWindow.open(map);
           map.setCenter(pos);
-          // map.setZoom(9);
         },
         () => {
           handleLocationError(true, infoWindow, map.getCenter());
