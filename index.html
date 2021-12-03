@@ -10,11 +10,11 @@
   <body>
     <div class="container pt-5">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12" style="display: none;">
           <div id="map"></div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-12">
           <form>
             <div class="form-group">
               <label for="nomeAddress">Home address</label>
@@ -40,6 +40,7 @@
               <small id="longHelp" class="form-text text-muted">Click update button from map to update your location</small>
             </div>
             <div class="form-group pt-3">
+              <button type="button" id="button" class="btn btn-primary">Update Location</button>
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
           </form>  
