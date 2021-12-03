@@ -43,7 +43,12 @@ function initMap() {
 
           infoWindow.setPosition(pos);
           infoWindow.setZoom(9)
-          // infoWindow.setContent("Location found.");
+          infoWindow.setContent({
+            url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
+            labelOrigin: new google.maps.Point(75, 32),
+            size: new google.maps.Size(32,32),
+            anchor: new google.maps.Point(16,32)
+          });
           infoWindow.open(map);
           map.setCenter(pos);
           // map.setZoom(9);
