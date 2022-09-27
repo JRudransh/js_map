@@ -3,5 +3,5 @@
 
 <!-- Icon  -->
 <!-- proper zoom -->
-make reverse
+Get your longetitude and latitude in google maps 
 <!-- submit button outside -->
